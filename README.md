@@ -21,9 +21,8 @@
 			   </dependency>
 		   </dependencies>
 	   </dependencyManagement>
-	   ```
-	   3. Add common dependencies.
-	      ```xml
+	3. Add common dependencies.
+	   ```xml
 	      <dependencies>
 		      <dependency>
 			      <groupId>org.projectlombok</groupId>
@@ -34,7 +33,6 @@
 			      <artifactId>spring-boot-starter-test</artifactId>
 		      </dependency>
 	      </dependencies>
-```
 	4. Replace plugins with follow.
 	   ```xml
 	   <plugins>
@@ -44,7 +42,6 @@
 			   <version>${spring.boot.maven.plugin.version}</version>
 		   </plugin>
 	   </plugins>
-```
 	5. Update maven properties.
 	   ```xml
 	   <properties>
@@ -54,4 +51,3 @@
 		   <spring.boot.dependencies.version>3.0.3</spring.boot.dependencies.version>
 		   <spring.boot.maven.plugin.version>3.0.3</spring.boot.maven.plugin.version>
 	   </properties>
-```
